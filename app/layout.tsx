@@ -29,10 +29,10 @@ export default function RootLayout({
                 Cửa hàng
               </Link>
               <Link
-                href="/admin"
+                href="/#cart"
                 className="rounded-md bg-pitch-900 px-3 py-2 text-white hover:bg-pitch-700"
               >
-                Đơn hàng
+                Giỏ hàng
               </Link>
             </nav>
           </div>

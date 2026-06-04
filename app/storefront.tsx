@@ -242,7 +242,10 @@ export default function Storefront({ products }: StorefrontProps) {
           </div>
         </div>
 
-        <aside className="rounded-lg border border-line bg-white p-5 shadow-sm lg:sticky lg:top-24">
+        <aside
+          id="cart"
+          className="scroll-mt-24 rounded-lg border border-line bg-white p-5 shadow-sm lg:sticky lg:top-24"
+        >
           <div className="mb-4 flex items-center justify-between">
             <h2 className="text-xl font-bold text-pitch-900">Giỏ hàng</h2>
             <span className="rounded-full bg-pitch-50 px-3 py-1 text-sm font-bold text-pitch-700">
@@ -313,6 +316,7 @@ export default function Storefront({ products }: StorefrontProps) {
             />
             <input
               name="phone"
+              type="tel"
               placeholder="Số điện thoại"
               className="w-full rounded-md border border-line px-3 py-3 outline-none focus:border-pitch-600 focus:ring-2 focus:ring-pitch-100"
               required
